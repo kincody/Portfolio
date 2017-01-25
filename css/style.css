@@ -1,0 +1,74 @@
+* {
+	font-family: "Lato", sans-serif;
+}
+.hwrapper {
+	display: block;
+	height: 300px;
+	width: 900px;
+	margin: auto auto;
+	border-bottom: solid 10px #bcbbbb;
+	color: #bcbbbb;
+}
+.hwrapper img {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 0;
+}
+.ninja {
+	clear: both;
+}
+
+
+.res{
+	width: 100%;
+}
+
+h1 {
+	display: block;
+	right: 0;
+	float: right;
+	font-weight: 100;
+	font-size: 4em;
+	margin: 0;
+	color: #bcbbbb;
+}
+
+
+h2  {
+	clear: right;
+	display: block;
+	right: 0;
+	height: 100px;
+	float: right;
+	font-weight: 300;
+	font-size: 1em;
+	margin: 0;
+}
+
+.proj1,
+.proj2, 
+.proj3 {
+	width:100%;
+}
+
+.proj1,
+.proj2 {
+	margin-right: 1px;
+}
+
+
+.content {
+	clear: both;
+	display: block;
+	position: relative;
+	width: 900px;
+	margin: auto auto;
+	overflow: hidden;
+}
+
+h3 {
+	display: block;
+	font-size: 3em;
+	color: #bcbbbb;
+}

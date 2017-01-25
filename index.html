@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>My portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	
+
+</head>
+<body>
+<div class="container">
+	<header class="row">
+		<figure class="col-md-6">
+			<img src="img/ud.jpg" class="udimg" alt="icon" />
+		</figure>
+		<article class="col-md-6 text-right text-uppercase">
+			<h1> Jane Doette</h1>
+			<h4 class="ninja">Front-end Ninja</h4>
+		</article>
+		
+	</header>
+	<section class="row">
+		<div class="col-md-12">
+		<hr/>
+		</div>
+	</section>
+	<section class="row topmar">
+		<figure class="col-md-12">
+			<img class="img-reponsive res" src="http://placekitten.com/1170/400" alt="main text" />
+		</figure>
+	</section>
+	<section class="row">
+		<figure class="col-md-12">
+			<h3>Featured Work</h3>
+		</figure>
+	</section>
+	<section class="row">
+		<article class="col-md-4">
+			<img  class="img-reponsive proj1 center-block" src="http://placekitten.com/380/300" alt="main text" data-toggle="modal" data-target="#project1"/>
+			<h3 class="text-center">APPIFY</h3>
+			<h5 class="text-center">https://github.com/udacity/Appify</h5>
+		</article>
+
+		<article class="col-md-4">
+			<img class="img-reponsive proj2 center-block" src="http://placekitten.com/380/300" alt="main text" data-toggle="modal" data-target="#project1"/>
+			<h3 class="text-center">SUNFLOWER</h3>
+			<h5 class="text-center">https://github.com/udacity/Sunflower</h5>
+		</article>
+	
+		<article class="col-md-4">
+			<img class="img-reponsive proj1 center-block" src="http://placekitten.com/380/300" alt="main text" data-toggle="modal" data-target="#project1" />
+			<h3 class="text-center">BOKEH</h3>
+			<h5 class="text-center">https://github.com/udacity/Bokeh</h5>
+		</article>
+	</section>
+</div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </header>
+                <article class="modal-body">
+                    <img class="img-responsive" alt="a cat" src="http://placekitten.com/380/300">
+                    <p>This was my first project in this class. I learned a lot about HTML and CSS.</p>
+                </article>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>			
+</body>
+</html>
